@@ -1,3 +1,5 @@
+> **Note**: This version has been modified to use CMake for building and is integrated as a submodule in the [audio-quality-assess](https://gitee.com/XePWang/audio-quality-assess) project.
+
 Dennis Guse, 2014 (dennis.guse@alumni.tu-berlin.de)
 
 This is the source code PESQ as published in ITU-T P.862 Amendment 2 (11/2005).
@@ -43,10 +45,10 @@ RECOMMENDATION TITLES
 DEFINITIONS:
 ------------
 For the purposes of this Intellectual Property Rights Notice
-the terms ‘Perceptual Evaluation of Speech Quality Algorithm’
-and ‘PESQ Algorithm’ refer to the objective speech quality
+the terms ï¿½Perceptual Evaluation of Speech Quality Algorithmï¿½
+and ï¿½PESQ Algorithmï¿½ refer to the objective speech quality
 measurement algorithm defined in ITU-T Recommendation P.862;
-the term ‘PESQ Software’ refers to the C-code component of P.862. 
+the term ï¿½PESQ Softwareï¿½ refers to the C-code component of P.862. 
 These definitions also apply to those parts of ITU-T Recommendation 
 P.862.2 and its associated source code that are common with P.862.
 
