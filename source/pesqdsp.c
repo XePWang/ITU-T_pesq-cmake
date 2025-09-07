@@ -11,10 +11,10 @@ Version 2.0 - October 2005.
 DEFINITIONS:
 ------------
 For the purposes of this Intellectual Property Rights Notice
-the terms ‘Perceptual Evaluation of Speech Quality Algorithm’
-and ‘PESQ Algorithm’ refer to the objective speech quality
+the terms ï¿½Perceptual Evaluation of Speech Quality Algorithmï¿½
+and ï¿½PESQ Algorithmï¿½ refer to the objective speech quality
 measurement algorithm defined in ITU-T Recommendation P.862;
-the term ‘PESQ Software’ refers to the C-code component of P.862.
+the term ï¿½PESQ Softwareï¿½ refers to the C-code component of P.862.
 These definitions also apply to those parts of ITU-T Recommendation 
 P.862.2 and its associated source code that are common with P.862.
 
@@ -133,7 +133,7 @@ void DC_block( float * data, long Nsamples )
        *(p--) *= (0.5f + count) / Downsample;
 }
 
-long InIIR_Nsos;
+extern long InIIR_Nsos;
 float *InIIR_Hsos;
 
 void apply_filters( float * data, long Nsamples )

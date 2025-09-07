@@ -11,10 +11,10 @@ Version 2.0 - October 2005.
 DEFINITIONS:
 ------------
 For the purposes of this Intellectual Property Rights Notice
-the terms ‘Perceptual Evaluation of Speech Quality Algorithm’
-and ‘PESQ Algorithm’ refer to the objective speech quality
+the terms ï¿½Perceptual Evaluation of Speech Quality Algorithmï¿½
+and ï¿½PESQ Algorithmï¿½ refer to the objective speech quality
 measurement algorithm defined in ITU-T Recommendation P.862;
-the term ‘PESQ Software’ refers to the C-code component of P.862.
+the term ï¿½PESQ Softwareï¿½ refers to the C-code component of P.862.
 These definitions also apply to those parts of ITU-T Recommendation 
 P.862.2 and its associated source code that are common with P.862.
 
@@ -140,7 +140,7 @@ Further information is also available from www.pesq.org
 
 #define TWOPI 6.28318530717959
 
-int Nb ;
+extern int Nb ;
 
 #define Nfmax 512
 
